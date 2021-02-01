@@ -3,7 +3,7 @@ from gpiozero import Button
 from time import sleep
 
 red = LED(17)
-button = button(2)
+button = Button(2)
 
 
 
